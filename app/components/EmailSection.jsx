@@ -20,7 +20,7 @@ const EmailSection = () => {
     const JsonData = JSON.stringify(data)
     const endPoint = '/api/send'
 
-    const response = await axios.post(endPoint,JsonData)
+    // const response = await axios.post(endPoint,JsonData)
 
     console.log(response)
     
