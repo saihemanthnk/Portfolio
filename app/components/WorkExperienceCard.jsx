@@ -3,7 +3,7 @@ import { EyeIcon } from '@heroicons/react/16/solid'
 import Link from 'next/link'
 
 
-const WorkExperienceCard = ({imgUrl,title,description,certificationUrl,role}) => {
+const WorkExperienceCard = ({imgUrl,title,description,role}) => {
   return (
 
     <div className='mb-3'>
