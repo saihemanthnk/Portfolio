@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 
 const HeroSection = () => {
-  const motionDiv = motion.div
+  
   return (
     <section className='lg:py-8'>
         <motion.div  initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='grid grid-cols-1 lg:grid-cols-12'>
@@ -31,9 +31,9 @@ const HeroSection = () => {
       repeat={Infinity}
     />
                 </h2>
-            <p className='text-[#ADB7B6] text-lg lg:text-xl mb-2'>I focus on buiding complex and quality applications and services.<br></br>I'm an under graduated student from  Indian Institute of Information Technology Kottayam, and I had pursued bachelor's degree in Electronics and Communication Engineering.</p>
+            <p className='text-[#ADB7B6] text-lg lg:text-xl mb-2'>I focus on buiding complex and quality applications and services.<br></br>I&apos;m an under graduated student from  Indian Institute of Information Technology Kottayam, and I had pursued bachelor&apos;s degree in Electronics and Communication Engineering.</p>
             <p className='text-[#ADB7B6] text-lg lg:text-xl mb-2'>I thrive on tackling real-world challenges through innovative solutions. With a keen analytical mindset, I enjoy dissecting complex problems and developing strategies that make a tangible impact.</p>
-            <p className='text-[#ADB7B6] text-lg lg:text-xl mb-6'>Right now, I'm Working on some exciting projects that I can't wait to share with you. But I'm always open to new opportunities and collabarations.</p>
+            <p className='text-[#ADB7B6] text-lg lg:text-xl mb-6'>Right now, I&apos;m Working on some exciting projects that I can&apos;t wait to share with you. But I&apos;m always open to new opportunities and collabarations.</p>
             <div>
                 <button className='text-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 w-full sm:w-fit hover:bg-slate-200 rounded-full px-4 py-2 mr-4 mb-2 sm:mb-0'>Hire Me</button>
                 <button className='text-white bg-transparent border w-full sm:w-fit border-white hover:bg-slate-800 rounded-full px-4 py-2'> <Link href='https://drive.google.com/file/d/1HXltrR8F1Fk8TwAkZaV5AF4oPhV_rZaB/view?usp=sharing'>Download CV</Link></button>
