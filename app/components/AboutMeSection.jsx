@@ -98,6 +98,7 @@ function AboutMeSection() {
     }
   return (
     <section id="about" className='text-white scroll-mt-24'>
+        <p>{_trans}</p>
         <div className='grid md:grid-cols-2 gap-8 items-center px-4 py-8 xl:gap-16 sm:py-16 xl:px-16'>
           <Image src='/images/about-image.png' alt='about image' width={500} height={600} />
           <div className='text-left mt-4 md:mt-0 flex flex-col h-full'>
