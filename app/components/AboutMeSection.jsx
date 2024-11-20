@@ -91,7 +91,7 @@ const TabData = [
 
 function AboutMeSection() {
     const [tab,setTab] = useState('Languages')
-    const [_,startTransition] = useTransition()
+    const [_trans,startTransition] = useTransition()
 
     const handleTabChange = (id)=>{
         startTransition(()=>setTab(id))
