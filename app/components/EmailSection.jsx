@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import GithubIcon from '../../public/images/github-icon.svg'
 import axios from 'axios'
-import InstaIcon from '../../public/images/insta-icon.svg'
+
 
 const EmailSection = () => {
 
