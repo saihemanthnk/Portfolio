@@ -4,7 +4,7 @@ import LinkedinIcon from '../../public/images/linkedin-icon.svg'
 import Link from 'next/link'
 import Image from 'next/image'
 import GithubIcon from '../../public/images/github-icon.svg'
-import axios from 'axios'
+// import axios from 'axios'
 
 
 const EmailSection = () => {
@@ -16,13 +16,14 @@ const EmailSection = () => {
       subject: e.target.subject.value,
       message: e.target.mesage.value
     }
+    console.log(data)
 
-    const JsonData = JSON.stringify(data)
-    const endPoint = '/api/send'
+    // const JsonData = JSON.stringify(data)
+    // const endPoint = '/api/send'
 
     // const response = await axios.post(endPoint,JsonData)
 
-    console.log(response)
+    // console.log(response)
     
     
   }
