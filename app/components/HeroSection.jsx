@@ -13,7 +13,7 @@ const HeroSection = () => {
         <motion.div  initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className='grid grid-cols-1 lg:grid-cols-12'>
             <div  className='col-span-8 place-self-center text-center sm:text-left'>
             <h2 className="text-white mb-3  font-extrabold text-4xl sm:text-5xl lg:text-6xl">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-stone-400">Hello, I'm </span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-stone-400">Hello, I&apos;m </span>
                 <br></br>
                 <TypeAnimation
       sequence={[
